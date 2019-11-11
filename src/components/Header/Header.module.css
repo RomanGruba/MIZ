@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: teal;
+}
+
+.location,
+.workingHours,
+.mail,
+.phone {
+  display: flex;
+}
+
+.locationText {
+  padding-top: 4px;
+}
+
+.workingHours,
+.phone {
+  align-items: center;
+}
