@@ -1,0 +1,8 @@
+.menu {
+  display: flex;
+  flex-flow: column;
+}
+
+.menuItem {
+  width: 100px;
+}

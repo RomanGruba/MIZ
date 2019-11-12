@@ -9,7 +9,7 @@ const Header = () => {
         <p className={styles.locationText}>г.Измаил, ул.Клушина, 4г</p>
       </div>
       <div className={styles.workingHours}>
-        <i class="material-icons md-dark">query_builder</i>
+        <i className="material-icons md-dark">query_builder</i>
         <div className={styles.workingHoursText}>
           <p className={styles.workingHoursTextItem}>Пн-Пт с 10 до 18</p>
           <p className={styles.workingHoursTextItem}>Субб. с 10 до 14</p>
