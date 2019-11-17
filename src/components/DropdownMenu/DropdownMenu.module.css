@@ -1,6 +1,7 @@
 .menu {
   display: flex;
   flex-flow: column;
+
 }
 
 .menuItem {

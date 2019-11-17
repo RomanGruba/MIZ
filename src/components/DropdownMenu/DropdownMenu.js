@@ -6,8 +6,10 @@ export default class DropdownMenu extends Component {
     showMenu: false
   };
 
-  handleShowMenu = () => {
-    this.setState({ showMenu: !this.state.showMenu }, () =>
+  handleShowMenu = e => {
+    e.preventDefault();
+
+    this.setState({ showMenu: true }, () =>
       document.addEventListener("click", this.closeMenu)
     );
   };
@@ -21,12 +23,13 @@ export default class DropdownMenu extends Component {
   render() {
     return (
       <div>
-        <button onClick={() => this.handleShowMenu()}>Show menu</button>
+        <button onClick={this.handleShowMenu}>{this.props.title}</button>
         {this.state.showMenu ? (
           <div className={styles.menu}>
-            <button className={styles.menuItem}>Item 1</button>
-            <button className={styles.menuItem}>Item 2</button>
-            <button className={styles.menuItem}>Item 3</button>
+            <button className={styles.menuItem}>{this.props.menu[0]}</button>
+            <button className={styles.menuItem}>{this.props.menu[1]}</button>
+            <button className={styles.menuItem}>{this.props.menu[2]}</button>
+            <button className={styles.menuItem}>{this.props.menu[3]}</button>
           </div>
         ) : null}
       </div>
