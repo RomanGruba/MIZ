@@ -4,4 +4,13 @@
 
 .text {
   padding-right: 20px;
+  text-align: justify;
+}
+
+.textPara {
+  padding-bottom: 20px;
+}
+
+.section1 {
+  padding-bottom: 30px;
 }

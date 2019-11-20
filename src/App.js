@@ -4,12 +4,20 @@ import styles from "./App.module.css";
 import Header from "./components/Header/Header";
 import DropdownMenu from "./components/DropdownMenu/DropdownMenu";
 import Homepage from "./components/pages/Homepage/Homepage";
-import Rock from "./components/pages/Rock/Rock";
+import Kamen from "./components/pages/Kamen/Kamen";
+import Mdf from "./components/pages/MDF/MDF";
+import Dsp from "./components/pages/DSP/DSP";
 import Dropdown from "./components/Dropdown/Dropdown";
 
-const menu1 = [{ kitchen: "кухни" }, { locker: "шкафы" }];
+const menu1 = [
+  { kuhny: "кухни" },
+  { shkafy: "шкафы" },
+  { shkafy_kupe: "шкафы купе" },
+  { office: "офисная" },
+  { polki: "полки" }
+];
 
-const menu2 = ["ЛДСП", "МДФ", "ис. камень"];
+const menu2 = [{ dsp: "ДСП" }, { mdf: "МДФ" }, { kamen: "ис. камень" }];
 
 export default class App extends Component {
   state = {};
@@ -25,17 +33,11 @@ export default class App extends Component {
         </nav>
         <Switch>
           <Route path="/" exact component={Homepage} />
-          <Route path="/rock" component={Rock} />
+          <Route path="/kamen" component={Kamen} />
+          <Route path="/mdf" component={Mdf} />
+          <Route path="/dsp" component={Dsp} />
         </Switch>
       </>
     );
   }
-}
-
-{
-  /* <nav className={styles.nav}>
-<DropdownMenu title="КОРПУСНАЯ МЕБЕЛЬ" menu={menu1} />
-<DropdownMenu title="ПОЛЕЗНО ЗНАТЬ" menu={menu2} />
-<DropdownMenu title="КОНТАКТЫ" />
-</nav> */
 }
