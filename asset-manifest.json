@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/miz/static/css/main.2dbf110b.chunk.css",
-    "main.js": "/miz/static/js/main.6e269bf5.chunk.js",
-    "main.js.map": "/miz/static/js/main.6e269bf5.chunk.js.map",
+    "main.js": "/miz/static/js/main.2ee95d81.chunk.js",
+    "main.js.map": "/miz/static/js/main.2ee95d81.chunk.js.map",
     "runtime-main.js": "/miz/static/js/runtime-main.069a3185.js",
     "runtime-main.js.map": "/miz/static/js/runtime-main.069a3185.js.map",
     "static/js/2.d56a05de.chunk.js": "/miz/static/js/2.d56a05de.chunk.js",
     "static/js/2.d56a05de.chunk.js.map": "/miz/static/js/2.d56a05de.chunk.js.map",
     "index.html": "/miz/index.html",
-    "precache-manifest.0026f06b92b91d3c07a772fc5bba681d.js": "/miz/precache-manifest.0026f06b92b91d3c07a772fc5bba681d.js",
+    "precache-manifest.60b462dc58d2acaafded74adb17151c5.js": "/miz/precache-manifest.60b462dc58d2acaafded74adb17151c5.js",
     "service-worker.js": "/miz/service-worker.js",
     "static/css/main.2dbf110b.chunk.css.map": "/miz/static/css/main.2dbf110b.chunk.css.map",
     "static/media/Homepage.jpg": "/miz/static/media/Homepage.3d0357d3.jpg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.069a3185.js",
     "static/js/2.d56a05de.chunk.js",
     "static/css/main.2dbf110b.chunk.css",
-    "static/js/main.6e269bf5.chunk.js"
+    "static/js/main.2ee95d81.chunk.js"
   ]
 }
