@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
 import styles from "./App.module.css";
 import Header from "./components/Header/Header";
 import DropdownMenu from "./components/DropdownMenu/DropdownMenu";
@@ -31,12 +30,10 @@ export default class App extends Component {
           <Dropdown title="ПОЛЕЗНО ЗНАТЬ" menu={menu2} dropDown />
           <Dropdown title="КОНТАКТЫ" menu dropDown={false} />
         </nav>
-        <Switch>
-          <Route path="/" exact component={Homepage} />
-          <Route path="/kamen" component={Kamen} />
-          <Route path="/mdf" component={Mdf} />
-          <Route path="/dsp" component={Dsp} />
-        </Switch>
+        <Homepage />
+        <Dsp />
+        <Mdf />
+        <Kamen />
       </>
     );
   }
